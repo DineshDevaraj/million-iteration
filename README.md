@@ -7,14 +7,14 @@ So are SQL Joins not fast? Yes they are fast compared to subquery but not compar
 
 # Pre Requisite 
 1. Docker installed
-2. Run MySQL docker instance and name it as mysql-inst
+2. Run MySQL docker instance and name it as `mysql-inst`
 3. Clone this repo into /home folder in mysql-inst
 4. Install Python 3.X latest in mysql-inst
 
 # Initialize the Database
 1. Connect to mysql-inst `$> docker exec -it mysql-inst bash`
 2. Connect mysql client to dbms `$> mysql -h 127.0.0.1 -u <username> -p`
-3. Create tables, stored procedure and populated tables using tables-setup.sql script 
+3. Create tables, stored procedure and populated tables using `tables-setup.sql` script 
 
 # Run the Commands
 1. Open a new terminal to run the Python scripts
