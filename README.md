@@ -25,5 +25,5 @@ So are SQL Joins not fast? Yes they are fast compared to subquery but not compar
 6. Now you can compare the respective time taken to know the difference in perfromance
 7. Repeat step 1 to 6 for `with-alloc.py` script
 
-# Run the Commands
+# Results
 Results from run in my environment are placed in `time-taken` folder
