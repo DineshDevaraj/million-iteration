@@ -24,3 +24,6 @@ So are SQL Joins not fast? Yes they are fast compared to subquery but not compar
 5. You can copy the respective SQL Join statements and run it in mysql client terminal and note down the time taken
 6. Now you can compare the respective time taken to know the difference in perfromance
 7. Repeat step 1 to 6 for `with-alloc.py` script
+
+# Results
+Results from run in my environment are placed in `time-taken` folder
