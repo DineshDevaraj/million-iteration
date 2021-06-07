@@ -1,3 +1,0 @@
-One million pass     - 7.36
-Ten million pass     - 78.97
-Hundred million pass - 834.71
