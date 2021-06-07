@@ -1,9 +1,11 @@
 # million-iteration
 Collection of steps to compare time taken by MySQL Join statement against Python for-loops
 
-There is a ***superstition*** among many software developers that SQL Join statements works at speed of light with zero milli-second time taken and they think SQL engine as a magic box. This benchmark is an attempt to compare the time taken by SQL Join statements against for-loops in Python programming language
+There is a ***superstition*** among many software developers that SQL Join statements works at speed of light with zero milli-second time taken and they think SQL engine as a magic box. This benchmark is an attempt to compare the time taken by SQL Join statements against for-loops in Python programming language.
 
-So are SQL Joins not fast? Yes they are fast compared to subquery but not compared to native programs. The word performance is a relative term. Which means when you say SQL Join statements are fast, you also have to answer the question "Compared to what?"
+Q1. So are SQL Joins not fast? Yes they are fast compared to subquery but not compared to native programs. The word performance is a relative term. Which means when you say SQL Join statements are fast, you also have to answer the question "Compared to what?"
+
+Q2. So should I use Python / programming language approach instead of SQL Joins? I am not saying that either. You should be able to identify when to use what. Inorder to indentify the right approach you need to know how SQL Joins work and what kind of perfromance gain it offers.
 
 # Pre Requisite 
 1. Docker installed
