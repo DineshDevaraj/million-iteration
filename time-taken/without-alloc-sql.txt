@@ -1,0 +1,40 @@
+
+-------------------------------------------------------------------------------
+
+mysql> select * from thousand _1000_1, thousand _1000_2 limit 0 offset 1000000;
+Empty set (0.02 sec)
+
+-------------------------------------------------------------------------------
+
+mysql>     select * from ten _10_1
+    ->     join thousand _1000_1
+    ->     join thousand _1000_2
+    ->     limit 0 offset 100000000;
+Empty set (0.27 sec)
+
+-------------------------------------------------------------------------------
+
+mysql>     select * from hundred _100_1
+    ->     join thousand _1000_1
+    ->     join thousand _1000_2
+    ->     limit 0 offset 100000000;
+Empty set (2.80 sec)
+
+-------------------------------------------------------------------------------
+
+mysql>     select * from five _5_1
+    ->     join hundred _100_1
+    ->     join thousand _1000_1
+    ->     join thousand _1000_2
+    ->     limit 0 offset 500000000;
+Empty set (18.70 sec)
+
+-------------------------------------------------------------------------------
+
+mysql>     select * from thousand _1000_1
+    ->     join thousand _1000_2
+    ->     join thousand _1000_3
+    ->     limit 0 offset 1000000000;
+Empty set (29.39 sec)
+
+-------------------------------------------------------------------------------
